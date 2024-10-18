@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tareacuentas/screens/profile.dart';
 
 
 class navigation extends StatefulWidget {
@@ -13,7 +14,8 @@ class _navigationState extends State<navigation> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
- 
+  
+    profile()
   ];
 
   void _onItemTapped(int index) {
@@ -30,6 +32,10 @@ class _navigationState extends State<navigation> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'Profile',
           ),
         ],
         currentIndex: _selectedIndex,

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193297063920",
+    "project_id": "cuentas10b",
+    "storage_bucket": "cuentas10b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193297063920:android:331219895de7aae5994735",
+        "android_client_info": {
+          "package_name": "com.example.tareacuentas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8gyjKzgZCgmciRPitQdAS5SRRCI0VEuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
